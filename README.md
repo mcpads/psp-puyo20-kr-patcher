@@ -42,7 +42,7 @@ target/release/puyo20-tool verify-source path/to/japanese.iso
 | 스토리 대사 폰트 | `assets/fonts/private/MaplestoryLight.ttf` | [메이플스토리 서체](https://maplestory.nexon.com/Media/Font) Light |
 | PPSSPP 소스 | `--ppsspp-root`로 지정 | [hrydgard/ppsspp](https://github.com/hrydgard/ppsspp) 커밋 `56c694d88bbf82270e8b472fe63abd60f3f8e0a9` |
 
-폰트는 재배포 조건을 이 저장소에서 보장할 수 없어 포함하지 않습니다. 각 폰트의 라이선스는 배포처에서 확인하세요. 배포 패치 v1.0.0은 다음 폰트 파일로 만들었습니다. 빌드 명세가 이 해시를 고정하므로 다른 파일로는 진행하지 않습니다.
+배포 패치 v1.0.0은 다음 폰트 파일로 만들었습니다. 빌드 명세가 이 해시를 고정하므로 다른 파일로는 진행하지 않습니다.
 
 ```text
 2c709890595668f7bdb6df408420fda957dde0288e95b31a1cc17a2ab98b4b4f  Galmuri11.ttf
