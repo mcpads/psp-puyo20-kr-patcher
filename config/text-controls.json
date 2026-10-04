@@ -1,0 +1,84 @@
+{
+  "scope": "Operand framing only, verified against original PSP table and text scanners; control effects are not translated.",
+  "address": 144670368,
+  "sha256": "1ab14e84308eb3e3e32b707ac5d9a7a1b2f755f350671a1b880b7fc16714de64",
+  "entries": [
+    {
+      "code": 65535,
+      "operand_units": 0,
+      "object_offset": 0,
+      "virtual_slot": 0,
+      "handler": 143220300
+    },
+    {
+      "code": 65534,
+      "operand_units": 0,
+      "object_offset": 0,
+      "virtual_slot": 0,
+      "handler": 143220320
+    },
+    {
+      "code": 65533,
+      "operand_units": 0,
+      "object_offset": 0,
+      "virtual_slot": 0,
+      "handler": 143220328
+    },
+    {
+      "code": 63506,
+      "operand_units": 0,
+      "object_offset": 0,
+      "virtual_slot": 0,
+      "handler": 143220384
+    },
+    {
+      "code": 63488,
+      "operand_units": 1,
+      "object_offset": 0,
+      "virtual_slot": 0,
+      "handler": 143220468
+    },
+    {
+      "code": 63489,
+      "operand_units": 0,
+      "object_offset": 0,
+      "virtual_slot": 0,
+      "handler": 143220512
+    },
+    {
+      "code": 63507,
+      "operand_units": 0,
+      "object_offset": 0,
+      "virtual_slot": 0,
+      "handler": 143220528
+    },
+    {
+      "code": 63617,
+      "operand_units": 1,
+      "object_offset": 0,
+      "virtual_slot": 0,
+      "handler": 143220544
+    },
+    {
+      "code": 63616,
+      "operand_units": 1,
+      "object_offset": 0,
+      "virtual_slot": 0,
+      "handler": 143220676
+    },
+    {
+      "code": 63618,
+      "operand_units": 1,
+      "object_offset": 0,
+      "virtual_slot": 0,
+      "handler": 143220708
+    },
+    {
+      "code": 63619,
+      "operand_units": 1,
+      "object_offset": 0,
+      "virtual_slot": 0,
+      "handler": 143220716
+    }
+  ]
+}

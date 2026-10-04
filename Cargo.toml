@@ -1,0 +1,24 @@
+[package]
+name = "puyo20-tool"
+version = "0.0.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+anyhow = "=1.0.104"
+clap = { version = "=4.6.6", features = ["derive"] }
+serde = { version = "=1.0.229", features = ["derive"] }
+serde_json = { version = "=1.0.151", features = ["preserve_order"] }
+sha2 = "=0.10.9"
+flate2 = "=1.1.10"
+crc32fast = "1.5"
+zip = { version = "=8.6.0", default-features = false, features = ["deflate-flate2"] }
+tempfile = "=3.27.0"
+png = "=0.18.1"
+zopfli = { version = "=0.8.3", default-features = false, features = ["std"] }
+fontdue = "=0.9.3"
+skrifa = "=0.47.0"
+zeno = "=0.3.3"
+allegrex = { git = "https://github.com/mcpads/retro-typed-isa", rev = "399e64f86a06d10b6358f26a00569c58b92e7da2" }
+typed-isa-core = { git = "https://github.com/mcpads/retro-typed-isa", rev = "399e64f86a06d10b6358f26a00569c58b92e7da2" }
+texpresso = { version = "=2.0.2", default-features = false }

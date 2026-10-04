@@ -1,0 +1,35 @@
+{
+  "purpose": "Local PRX decrypt helper sources, compiled in a private temporary directory; not a bundled emulator or product runtime",
+  "ppsspp_commit": "56c694d88bbf82270e8b472fe63abd60f3f8e0a9",
+  "source_repository": "https://github.com/hrydgard/ppsspp",
+  "license_note": "PPSSPP headers/decryptor GPL-2.0; libkirk carries its own permissive notice. External source is not copied into this repository.",
+  "c_sources": [
+    "ext/libkirk/AES.c",
+    "ext/libkirk/bn.c",
+    "ext/libkirk/ec.c",
+    "ext/libkirk/kirk_engine.c",
+    "ext/libkirk/SHA1.c"
+  ],
+  "cpp_sources": [
+    "Core/ELF/PrxDecrypter.cpp"
+  ],
+  "files": {
+    "Common/Common.h": "cd56ac49b415a4f0c785f3494d4859d0c91ce2de1fc7b18fb04f616fd36e90c6",
+    "Common/CommonFuncs.h": "b49efc28fe098ee723451ef9592c278d8cf47afc975b7fae9329a1d518fc8ada",
+    "Common/CommonTypes.h": "5cde07034c9d02d2739e8c40801096f409b14b35de68d395d35640af75e97cae",
+    "Common/Log.h": "4b52c8e3ae931981abe07ed40a72a62f3ec7446a34eb6a832f32c1f86459a0ef",
+    "Common/Swap.h": "85e1e9d2a24f75cf0995a334004b1f85ac6da39d897c15be777b16bf13d437d8",
+    "Core/ELF/PrxDecrypter.cpp": "9bea13a3867b7b7e60b26f648bfcf650ce96e9f0da2203949cf1f9c2df54659b",
+    "Core/ELF/PrxDecrypter.h": "9021115e71851bc2ae80d37f6532a9ab07990715d8a42478bc7e0bc219bdb9a4",
+    "ext/libkirk/AES.c": "3e0321521c1985aceac86d0b5388ab5256a58b94b82092ef48c658756b19d09f",
+    "ext/libkirk/AES.h": "61e784ebd7ddcb6f7876f1933c1e2020f7fc89ab3a1f3bfcb50c29cd35abf179",
+    "ext/libkirk/SHA1.c": "7ef8ee993a7858ff78fdf22efb8c2e06b4864513f6842396b1cf7035f7604024",
+    "ext/libkirk/SHA1.h": "527c0407568beea5b3a07675ec1e25cf477208cd68ba2e45d462fdcb1cd21237",
+    "ext/libkirk/bn.c": "06d2886369f2490855e9e1541ab84901b4a5b03661fbbcd6899444d18c28718f",
+    "ext/libkirk/ec.c": "f86bc1c13680da95486538b0202467e089a2f50907caebe1afa31d489d96df48",
+    "ext/libkirk/kirk_common.h": "8bc730e60c1a5498cec2f649bf8bc356ce85a843da8d2f4a278f19d14cce17a5",
+    "ext/libkirk/kirk_engine.c": "74e363f78fdec5c0fc82842a21c11c3b0363996a931805cec9fd11231a3e7763",
+    "ext/libkirk/kirk_engine.h": "d827ae841fe160a52ae4ad8f118c6d46476a5a0887d349328419197ad5e996bc",
+    "ppsspp_config.h": "50622a3dd1c665543257f701708c61a81aa02f0c9618edc28ff54d1504e77c87"
+  }
+}

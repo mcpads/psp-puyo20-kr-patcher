@@ -1,0 +1,22 @@
+{
+  "id": "npjh50492-source",
+  "role": "survey-baseline",
+  "size_bytes": 1353154560,
+  "sha256": "8f26636c1bc2b473bf1e54eec0ca798273b982481924520b3678bc899c0f0aa2",
+  "metadata": {
+    "APP_VER": "01.00",
+    "BOOTABLE": 1,
+    "CATEGORY": "UG",
+    "DISC_ID": "NPJH50492",
+    "DISC_NUMBER": 1,
+    "DISC_TOTAL": 1,
+    "DISC_VERSION": "1.00",
+    "HRKGMP_VER": 19,
+    "PARENTAL_LEVEL": 1,
+    "PSP_SYSTEM_VER": "6.39",
+    "REGION": 32768,
+    "TITLE": "ぷよぷよ！！",
+    "USE_USB": 0
+  },
+  "observed_on": "2026-09-20"
+}
